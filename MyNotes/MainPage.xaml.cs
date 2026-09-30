@@ -14,7 +14,7 @@ public partial class MainPage : ContentPage
     readonly IFolderPicker folderPicker;
     readonly IFileSaver fileSaver;
     readonly ISpeechToText speechToText;
-
+    string? lastPhotoPath;
 
 
     public MainPage(IFolderPicker folderPicker, IFileSaver fileSaver, ISpeechToText speechToText)
@@ -121,5 +121,67 @@ public partial class MainPage : ContentPage
             if (e.RecognitionResult.IsSuccessful)
                 TranscriptEditor.Text = e.RecognitionResult.Text;
         });
+    async void OnTakePhotoClicked(object? sender, EventArgs e)
+    {
+        try
+        {
+            if (!MediaPicker.Default.IsCaptureSupported)
+            {
+                await DisplayAlertAsync("Info", "No camera on this device", "OK");
+                return;
+            }
+
+            FileResult? photo = await MediaPicker.Default.CapturePhotoAsync();
+            await ShowPhotoAsync(photo);
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlertAsync("Camera error", ex.Message, "OK");
+        }
+    }
+
+    async void OnPickPhotoClicked(object? sender, EventArgs e)
+    {
+        try
+        {
+            FileResult? photo = await MediaPicker.Default.PickPhotoAsync();
+            await ShowPhotoAsync(photo);
+        }
+        catch (Exception ex)
+        {
+            await DisplayAlertAsync("Gallery error", ex.Message, "OK");
+        }
+    }
+    async Task ShowPhotoAsync(FileResult? photo)
+    {
+        if (photo is null) return;   // user cancelled
+
+        // Copy the photo to our app cache, then show it
+        lastPhotoPath = Path.Combine(FileSystem.CacheDirectory, photo.FileName);
+        using var source = await photo.OpenReadAsync();
+        using var target = File.OpenWrite(lastPhotoPath);
+        await source.CopyToAsync(target);
+
+        PhotoImage.Source = ImageSource.FromFile(lastPhotoPath);
+    }
+
+    // Save the photo with the toolkit FileSaver
+    async void OnSavePhotoClicked(object? sender, EventArgs e)
+    {
+        if (lastPhotoPath is null)
+        {
+            await DisplayAlertAsync("Info", "Take a photo first!", "OK");
+            return;
+        }
+
+        using var stream = File.OpenRead(lastPhotoPath);
+        var result = await fileSaver.SaveAsync(
+            Path.GetFileName(lastPhotoPath), stream, CancellationToken.None);
+
+        StatusLabel.Text = result.IsSuccessful
+            ? $"Photo saved to: {result.FilePath}"
+            : $"Not saved: {result.Exception?.Message}";
+    }
+
 
 }

@@ -24,6 +24,12 @@
             <!-- 3. FileSaver -->
             <Button Text="Save note as .txt" Clicked="OnSaveFileClicked" />
             <Label x:Name="StatusLabel" TextColor="DarkGreen" />
+            <!-- 4. Photo (MediaPicker) -->
+            <Button Text="Take photo" Clicked="OnTakePhotoClicked" />
+            <Button Text="Choose photo from gallery" Clicked="OnPickPhotoClicked" />
+            <Image x:Name="PhotoImage" HeightRequest="200" Aspect="AspectFit" />
+            <Button Text="Save photo" Clicked="OnSavePhotoClicked" />
+
 
         </VerticalStackLayout>
     </ScrollView>
