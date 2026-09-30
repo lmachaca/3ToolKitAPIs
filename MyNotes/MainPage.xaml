@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyNotes.MainPage"
+             Title ="My Notes">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label Text="Voice Notes" FontSize="28" FontAttributes="Bold" />
+
+            <!-- 1. SpeechToText -->
+            <Button x:Name="ListenButton" Text="Start listening"
+                    Clicked="OnListenClicked" />
+            <Label x:Name="StateLabel" Text="State: idle" TextColor="Gray" />
+            <Editor x:Name="TranscriptEditor" HeightRequest="140"
+                    Placeholder="Your words appear here..." />
+
+            <!-- 2. FolderPicker -->
+            <Button Text="Pick a folder" Clicked="OnPickFolderClicked" />
+            <Label x:Name="FolderLabel" Text="No folder selected" />
+
+            <!-- 3. FileSaver -->
+            <Button Text="Save note as .txt" Clicked="OnSaveFileClicked" />
+            <Label x:Name="StatusLabel" TextColor="DarkGreen" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

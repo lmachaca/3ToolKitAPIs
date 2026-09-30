@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="MyNotes" mvid="32518049eeb042f49bc5ab60ca37b42f">
+  <java-to-managed>
+    <entry java-name="crc64b6d60163c60bb00a/MainActivity" managed-name="MyNotes.MainActivity, MyNotes" managed-type-token-id="33554452" />
+    <entry java-name="crc64b6d60163c60bb00a/MainApplication" managed-name="MyNotes.MainApplication, MyNotes" managed-type-token-id="33554453" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc64b6d60163c60bb00a/MainActivity" managed-name="MyNotes.MainActivity, MyNotes" managed-type-token-id="33554452" />
+    <entry java-name="crc64b6d60163c60bb00a/MainApplication" managed-name="MyNotes.MainApplication, MyNotes" managed-type-token-id="33554453" />
+  </managed-to-java>
+</api>

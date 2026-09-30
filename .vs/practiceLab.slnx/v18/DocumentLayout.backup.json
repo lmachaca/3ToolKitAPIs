@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Documents\\Classes\\MobileCloudTelementry\\lab\\practiceLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A17B73F3-9FE0-7BD0-674B-17B02716D348}|MyNotes\\MyNotes.csproj|c:\\users\\administrator\\documents\\classes\\mobilecloudtelementry\\lab\\practicelab\\mynotes\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17B73F3-9FE0-7BD0-674B-17B02716D348}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17B73F3-9FE0-7BD0-674B-17B02716D348}|MyNotes\\MyNotes.csproj|c:\\users\\administrator\\documents\\classes\\mobilecloudtelementry\\lab\\practicelab\\mynotes\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A17B73F3-9FE0-7BD0-674B-17B02716D348}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17B73F3-9FE0-7BD0-674B-17B02716D348}|MyNotes\\MyNotes.csproj|c:\\users\\administrator\\documents\\classes\\mobilecloudtelementry\\lab\\practicelab\\mynotes\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A17B73F3-9FE0-7BD0-674B-17B02716D348}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A17B73F3-9FE0-7BD0-674B-17B02716D348}|MyNotes\\MyNotes.csproj|c:\\users\\administrator\\documents\\classes\\mobilecloudtelementry\\lab\\practicelab\\mynotes\\mynotes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A17B73F3-9FE0-7BD0-674B-17B02716D348}|MyNotes\\MyNotes.csproj|solutionrelative:mynotes\\mynotes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.maui\\15.0.1\\ReadMe.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Classes\\MobileCloudTelementry\\lab\\practiceLab\\MyNotes\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MyNotes\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Classes\\MobileCloudTelementry\\lab\\practiceLab\\MyNotes\\MainPage.xaml.cs",
+              "RelativeToolTip": "MyNotes\\MainPage.xaml.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAADwvygAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T08:39:13.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Classes\\MobileCloudTelementry\\lab\\practiceLab\\MyNotes\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MyNotes\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Classes\\MobileCloudTelementry\\lab\\practiceLab\\MyNotes\\MainPage.xaml",
+              "RelativeToolTip": "MyNotes\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-09-30T08:34:55.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Classes\\MobileCloudTelementry\\lab\\practiceLab\\MyNotes\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MyNotes\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Classes\\MobileCloudTelementry\\lab\\practiceLab\\MyNotes\\MauiProgram.cs",
+              "RelativeToolTip": "MyNotes\\MauiProgram.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T08:26:05.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.maui\\15.0.1\\ReadMe.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\15.0.1\\ReadMe.txt",
+              "ToolTip": "C:\\Users\\Administrator\\.nuget\\packages\\communitytoolkit.maui\\15.0.1\\ReadMe.txt",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\.nuget\\packages\\communitytoolkit.maui\\15.0.1\\ReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-09-30T08:24:35.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyNotes",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Documents\\Classes\\MobileCloudTelementry\\lab\\practiceLab\\MyNotes\\MyNotes.csproj",
+              "RelativeDocumentMoniker": "MyNotes\\MyNotes.csproj",
+              "ToolTip": "C:\\Users\\Administrator\\Documents\\Classes\\MobileCloudTelementry\\lab\\practiceLab\\MyNotes\\MyNotes.csproj",
+              "RelativeToolTip": "MyNotes\\MyNotes.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-30T08:22:34.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{75c83ab3-5264-45e8-ad32-5c8a41ad477d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
